@@ -9,8 +9,7 @@ The pipeline consists of two main components:
 1. **Pipeline Instruction Generator** (`pipeline_instruction.py`)
    - Generates initial and augmented instructions for different personas
    - Uses GPT-4 to create contextually relevant instructions
-   - Supports two phases of instruction generation
-   - Distributes personas among multiple Google accounts for parallel processing
+git    - Distributes personas among multiple Google accounts for parallel processing
 
 2. **Pipeline Trajectory Generator** (`pipeline_trajectory_generation.py`)
    - Executes the generated instructions using Playwright
